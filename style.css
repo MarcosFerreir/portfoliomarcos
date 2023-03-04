@@ -353,59 +353,65 @@ padding: 10rem 0;
 .main__content{
     color:#fff;
     width: 100%;   
+   
     
 }
 .main__content h1{
-    background-color: #6be7e7;
-    background-image: linear-gradient(to top,  #08b1ff 0%,   #315764 100%);
+    background-color:white;
     background-size: 100%;
+    font-weight: 700;
     -webkit-background-clip: text;
     -moz-background-clip:  text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     text-transform: uppercase;
-    margin-bottom: 32px;  
+    margin-bottom: 32px; 
+    pointer-events: none; 
     
 }
 .main__content h2{
     font-size: 4rem;
-    background: #c2e59c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
+    background: white;     
     background-size:100%;
     -webkit-background-clip:text;
     -moz-background-clip:text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
+    pointer-events: none;
 }
 .main__content p{
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700; 
+    color:white;
+    pointer-events: none;
 }
 .main__btn{
           
-    font-size: 1.8rem;
-    background: #c2e59c;  
-    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  
-    background: linear-gradient(to right, #64b3f4, #c2e59c);
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: white;     
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
-    color:#fff;
+    color:#131313;
     margin-top: 2rem;
     cursor: pointer ;
     position: relative;
-    transition: all 0.35s;
+    transition: all 0.30s;
     outline: none;
 }
 .main__btn a{
     position: relative;
     z-index: 2;
-    color: #fff;
+    color: #131313;
     text-decoration: none;
     
+}
+
+.main__btn a:hover{
+    color: white;
+    text-decoration: none;
 }
 .main__btn:after{
     position:absolute;
@@ -414,14 +420,12 @@ padding: 10rem 0;
     left: 0;
     width: 0;
     height: 100%;
-    background: #2193b0;  
-    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  
-    background: linear-gradient(to right, #6dd5ed, #2193b0);    
+    background: rgb(35, 71, 172); 
     transition: all 0.35s;
     border-radius: 4px;
 }
 .main__btn:hover {
-    color:#231b69 ;  
+    color:rgb(35, 71, 172);
 }
 .main__btn:hover:after{
     width: 100%;
@@ -438,14 +442,14 @@ padding: 10rem 0;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: #2193b0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image:white;    
+    background:white; 
     
 }
 .fa-layer-group,
 .fa-users{
     font-size: 14rem;
+    color:rgb(35, 71, 172);
 }
 
 @media screen and (max-width:1100px){
@@ -514,7 +518,7 @@ padding: 10rem 0;
 /*Services Section */
 
 .services{
-    background: #131313;
+    background: #050505;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -526,8 +530,8 @@ padding: 10rem 0;
 
 }
 .services h1 {
-    background-color: #6be7e7;
-    background-image: linear-gradient(to top,  #08b1ff 0%,   #315764 100%);
+    background-color: white;
+    
     background-size: 100%;
     -webkit-background-clip:text;
     -moz-background-clip:text;
@@ -535,7 +539,7 @@ padding: 10rem 0;
     -moz-text-fill-color:transparent;
     margin-bottom: 5rem;
     font-size: 2.5rem;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .services__wrapper {
     display: grid;
@@ -551,19 +555,16 @@ padding: 10rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
-    background-image: linear-gradient(to top,  #08b1ff 0%,   #315764 100%);
+    color: #050505;
+    background: #fff;
     transition: 0.3s ease-in;
 }
 .services__card:nth-child(2) {
-    background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fff;  
+
 }
 .services__card:nth-child(3) {
-    background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fff; 
 
 
 }
@@ -589,7 +590,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 .services__card button{
     color: #fff;
     padding: 14px 24px;
-    border:none;
+    border: none;
     outline: none;
     border-radius: 4px;
     background: #131313;
