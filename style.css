@@ -262,7 +262,7 @@
 }
 .mrc__social { 
     letter-spacing: 1px;
-    padding-left: 85%;
+    padding-left: 90%;
      margin-top: -30%;
     box-sizing: border-box;
      box-shadow: none;
@@ -309,6 +309,10 @@ a{
 @media screen and (max-width:768px) {
     .hero__container{
         align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-left: -7%;
+        
     }
     .hero__heading{
         font-size: 50px;
