@@ -191,11 +191,11 @@
 .hero{
     display: grid;
     grid-template-columns:  1fr 1fr ;
-      
-
-    background:#000000;
-    overflow: hidden;
     background: #050505;
+
+   
+    overflow: hidden;
+    
     padding: 260px 0;
 
 }
@@ -209,7 +209,7 @@
     text-align: left;
     padding: 80px;
     margin-top: -150px;
-    
+    z-index: 1;
     
     
         
@@ -635,13 +635,14 @@ padding: 10rem 0;
   }
   
   #footer__logo {
-    color: #fff;
+    color: #565656;
     display: flex;
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
-    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    
 
 
   }
@@ -743,4 +744,4 @@ padding: 10rem 0;
       width: 100%;
     }
   }
-  
+
